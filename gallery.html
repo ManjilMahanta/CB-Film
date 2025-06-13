@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | CB Films</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="gallery.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <script src="gallery.js"></script>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="resources/logo.jpg" alt="CB Films Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.youtube.com/@chinmoybaruahphotographycb9560" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/chinmoy_baruah_films/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Gallery Section -->
+  <main>
+    <section class="gallery-container">
+      <h1>Our Works</h1>
+      <div class="gallery-grid">
+        <!-- JS will insert gallery images here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Overlay -->
+<div class="lightbox-overlay" id="lightbox">
+  <span class="lightbox-close" id="lightboxClose">&times;</span>
+  <img id="lightboxImg" src="" alt="Full View" />
+</div>
+
+
+</body>
+</html>
